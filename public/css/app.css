@@ -21,4 +21,15 @@ nav div:nth-child(2) img {
   cursor: pointer;
 }
 
+#moreInfo {
+  display: flex;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  color: grey;
+  padding: 1rem;
+}
+
 /*# sourceMappingURL=app.css.map */
