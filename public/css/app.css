@@ -1,0 +1,24 @@
+body {
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem;
+}
+nav div:nth-child(2) {
+  display: flex;
+  gap: 2rem;
+  padding-right: 2rem;
+}
+nav div:nth-child(2) img {
+  height: 2rem;
+  width: 2rem;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=app.css.map */
