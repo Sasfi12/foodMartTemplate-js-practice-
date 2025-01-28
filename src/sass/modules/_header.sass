@@ -1,19 +1,36 @@
 header 
     display: flex 
     justify-content: center
-   
+    gap: 2rem
+    padding: 3rem
     .card 
         display: flex 
         background-color: #E3F2FA
+        border-radius: 12px
+        justify-content: space-between
+        font-size: 2em
+        padding: 5rem 
+        > h3
+            color: gold 
         .card-desc 
             h1 > p 
                 margin: 0
     .card-container 
+        display: flex 
+        flex-direction: column
+        gap: 2rem
         .card 
+            border-radius: 12px
+            font-size: 1.5em
             .card-desc 
+                > * 
+                    margin: 0
                 h4> p 
                     margin: 0 
         .card:first-child
             background-color: #E9F8E2
         .card:nth-child(2)
             background-color: #FBE9E6
+        img 
+            height: 12rem 
+            width: 12rem
