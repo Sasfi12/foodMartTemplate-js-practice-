@@ -52,7 +52,15 @@ header .card-container .card:nth-child(2) {
   justify-content: center;
   align-items: center;
 }
-#bestSellingProducts {
+#bestSellingProducts .card-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+#bestSellingProducts .card-container .card .price {
+  display: flex;
+  justify-content: space-between;
+}
+#bestSellingProducts .card-container .card .price div {
   display: flex;
 }
 
