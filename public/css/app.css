@@ -21,6 +21,41 @@ nav div:nth-child(2) img {
   cursor: pointer;
 }
 
+header {
+  display: flex;
+  justify-content: center;
+}
+header .card {
+  display: flex;
+  background-color: #E3F2FA;
+}
+header .card .card-desc h1 > p {
+  margin: 0;
+}
+header .card-container .card .card-desc h4 > p {
+  margin: 0;
+}
+header .card-container .card:first-child {
+  background-color: #E9F8E2;
+}
+header .card-container .card:nth-child(2) {
+  background-color: #FBE9E6;
+}
+
+#category .card-container {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+#category .card-container .card {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#bestSellingProducts {
+  display: flex;
+}
+
 #moreInfo {
   display: flex;
 }
