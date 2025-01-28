@@ -75,11 +75,14 @@ header .card-container .card:nth-child(2) {
   background-color: #E3F2FA;
   border-radius: 10px;
   width: 40%;
-  font-size: 2em;
+  font-size: 1.8em;
   display: flex;
   flex-direction: column;
   justify-content: center;
   padding: 2em;
+  background-image: url(../img/ad-image-4.png);
+  background-repeat: no-repeat;
+  background-position: right;
 }
 #category .extra .card > * {
   margin: 0;
@@ -90,9 +93,15 @@ header .card-container .card:nth-child(2) {
 }
 #category .extra .card button {
   width: 20%;
+  border: none;
+  background-color: black;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
 }
 #category .extra .first {
   background-color: #FBE9E6;
+  background-image: url(../img/ad-image-3.png);
 }
 
 #bestSellingProducts .card-container {
