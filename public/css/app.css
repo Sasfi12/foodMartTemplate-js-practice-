@@ -134,12 +134,14 @@ header .card-container img {
 }
 #bestSellingProducts .card-container {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
+  font-size: 1.2em;
 }
 #bestSellingProducts .card-container .card div {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 0;
 }
 #bestSellingProducts .card-container .card div span {
   background-color: #93CB42;
@@ -161,6 +163,9 @@ header .card-container img {
 }
 #bestSellingProducts .card-container .card div .circle > svg {
   transition: 0.2s;
+}
+#bestSellingProducts .card-container .card * {
+  margin: 0.5rem;
 }
 #bestSellingProducts .card-container .card .price {
   display: flex;
