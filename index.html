@@ -11,8 +11,8 @@
 <body>
     <nav>
         <div><img src="public/img/logo.png" alt="logo" class="lgo"></div>
-        <div><img src="public/img/user-icon.png" alt="">
-            <img src="public/img/night-mode.png" alt="">
+        <div><img src="public/img/user-icon.png" alt="user">
+            <img src="public/img/night-mode.png" alt="night-mode" id="darkMode">
         </div>
     </nav>
     <header>
@@ -44,7 +44,8 @@
                 <div class="card-desc">
                     <h3>15% Off</h3>
                     <h5>________ <span>SALE</span></h5>
-                    <h4>Baked Products <p>& cakes</p></h4>
+                    <h4>Baked Products <p>& cakes</p>
+                    </h4>
                     <h6>Shop Collection</h6>
                 </div>
                 <img src="public/img/ad-image-2.png" alt="ad-image-2">
@@ -60,22 +61,21 @@
             <div class="card"><img class="card-icon" src="public/img/icon-bread-baguette.png" alt="breads">
                 <h3>Breads & Sweets</h3>
             </div>
-            <div class="card"><img class="card-icon" src="public/img/icon-soft-drinks-bottle.png"
-                    alt="soft drinks">
+            <div class="card"><img class="card-icon" src="public/img/icon-soft-drinks-bottle.png" alt="soft drinks">
                 <h3>Soft Drinks</h3>
             </div>
             <div class="card"><img class="card-icon" src="public/img/icon-wine-glass-bottle.png" alt="wine glass">
                 <h3>Wines </h3>
             </div>
         </div>
-        <div class="card-container">
-            <div>
+        <div class="extra">
+            <div class="card first">
                 <h4>Upto 25% Off</h4>
                 <h3>Luxa Dark Chocolate</h3>
                 <p>Very Tasty & creamy flavour creamy</p>
                 <button>SHOP NOW</button>
             </div>
-            <div>
+            <div class="card">
                 <h4>Upto 25% Off</h4>
                 <h3>Luxa Dark Chocolate</h3>
                 <p>Creamy Muffins</p>
@@ -83,104 +83,106 @@
             </div>
         </div>
     </section>
-    
+
     <section id="bestSellingProducts">
         <h2>Best Selling products</h2>
         <div class="card-container">
-        <div class="card">
-            <div>
-                <span></span>
-                <div></div>
-            </div>
-            <img src="public/img/thumb-tomatoes.png" alt="banana">
-            <h4>Sunstar Fresh Melon Juice</h4>
-            <p><span></span><span></span></p>
-            <h3>$18.00</h3>
-            <div class="price">
+            <div class="card">
                 <div>
-                    <button>-</button>
-                    <p>1</p>
-                    <button>+</button>
+                    <span></span>
+                    <div></div>
                 </div>
-                <p>Add to Cart</p>
-            </div>
-        </div>
-        <div class="card">
-            <div>
-                <span></span>
-                <div></div>
-            </div>
-            <img src="public/img/thumb-tomatoketchup.png" alt="banana">
-            <h4>Sunstar Fresh Melon Juice</h4>
-            <p><span></span><span></span></p>
-            <h3>$18.00</h3>
-            <div class="price">
-                <div >
-                    <button>-</button>
-                    <p>1</p>
-                    <button>+</button>
+                <img src="public/img/thumb-tomatoes.png" alt="banana">
+                <h4>Sunstar Fresh Melon Juice</h4>
+                <p><span></span><span></span></p>
+                <h3>$18.00</h3>
+                <div class="price">
+                    <div>
+                        <button>-</button>
+                        <p>1</p>
+                        <button>+</button>
+                    </div>
+                    <p>Add to Cart</p>
                 </div>
-                <p>Add to Cart</p>
             </div>
-        </div>
-        <div class="card">
-            <div>
-                <span></span>
-                <div></div>
-            </div>
-            <img src="public/img/thumb-bananas.png" alt="banana">
-            <h4>Sunstar Fresh Melon Juice</h4>
-            <p><span></span><span></span></p>
-            <h3>$18.00</h3>
-            <div class="price">
+            <div class="card">
                 <div>
-                    <button>-</button>
-                    <p>1</p>
-                    <button>+</button>
+                    <span></span>
+                    <div></div>
                 </div>
-                <p>Add to Cart</p>
+                <img src="public/img/thumb-tomatoketchup.png" alt="banana">
+                <h4>Sunstar Fresh Melon Juice</h4>
+                <p><span></span><span></span></p>
+                <h3>$18.00</h3>
+                <div class="price">
+                    <div>
+                        <button>-</button>
+                        <p>1</p>
+                        <button>+</button>
+                    </div>
+                    <p>Add to Cart</p>
+                </div>
             </div>
-        </div>
-        <div class="card">
-            <div>
-                <span></span>
-                <div></div>
-            </div>
-            <img src="public/img/thumb-bananas.png" alt="banana">
-            <h4>Sunstar Fresh Melon Juice</h4>
-            <p><span></span><span></span></p>
-            <h3>$18.00</h3>
-            <div class="price">
+            <div class="card">
                 <div>
-                    <button>-</button>
-                    <p>1</p>
-                    <button>+</button>
+                    <span></span>
+                    <div></div>
                 </div>
-                <p>Add to Cart</p>
+                <img src="public/img/thumb-bananas.png" alt="banana">
+                <h4>Sunstar Fresh Melon Juice</h4>
+                <p><span></span><span></span></p>
+                <h3>$18.00</h3>
+                <div class="price">
+                    <div>
+                        <button>-</button>
+                        <p>1</p>
+                        <button>+</button>
+                    </div>
+                    <p>Add to Cart</p>
+                </div>
+            </div>
+            <div class="card">
+                <div>
+                    <span></span>
+                    <div></div>
+                </div>
+                <img src="public/img/thumb-bananas.png" alt="banana">
+                <h4>Sunstar Fresh Melon Juice</h4>
+                <p><span></span><span></span></p>
+                <h3>$18.00</h3>
+                <div class="price">
+                    <div>
+                        <button>-</button>
+                        <p>1</p>
+                        <button>+</button>
+                    </div>
+                    <p>Add to Cart</p>
+                </div>
             </div>
         </div>
-    </div>
     </section>
     <section id="moreInfo">
-        <div>
-            <h4>Free Delivery</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipi elit.</p>
-        </div>
-        <div>
-            <h4>100% secure payment</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipi elit.</p>
-        </div>
-        <div>
-            <h4>Quality guarantee</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipi elit.</p>
-        </div>
-        <div>
-            <h4>guaranteed savings</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipi elit.</p>
-        </div>
-        <div>
-            <h4>Daily offers</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipi elit.</p>
+        <div class="card-container">
+            <div class="card">
+                <h4>Free Delivery</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipi elit.</p>
+            </div>
+            <div class="card">
+                <h4>100% secure payment</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipi elit.</p>
+            </div>
+            <div class="card">
+                <h4>Quality guarantee</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipi elit.</p>
+            </div>
+            <div class="card">
+                <h4>guaranteed savings</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipi elit.</p>
+            </div>
+            <div class="card">
+                <h4>Daily offers</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipi elit.</p>
+            </div>
         </div>
     </section>
     <footer class="footer">
