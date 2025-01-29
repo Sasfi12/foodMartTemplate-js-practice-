@@ -36,12 +36,12 @@ allCounters.forEach(function(counter) {
 let user = document.querySelector("#user") 
 let modal = document.querySelector(".modal")
 user.addEventListener('click', function() {
-    modal.classList.add('modal-appear')
-    document.body.classList.add('bodyOnModal')
+    modal.classList.toggle('modal-appear')
+    document.body.classList.toggle('bodyOnModal')
 })
 let closeModal = document.querySelector("#modalClose")
 
 closeModal.addEventListener("click", function() {
-    modal.classList.toggle("modal-appear")
-    document.body.classList.toggle('bodyOnModal')
+    modal.classList.remove("modal-appear")
+    document.body.classList.remove('bodyOnModal')
 })

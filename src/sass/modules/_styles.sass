@@ -9,40 +9,54 @@
         background-color: red   
 .modal-appear 
     display: flex 
-    position: fixed !important
+    position: absolute 
     bottom: 40rem !important
 .bodyOnModal
     *
         opacity: 0.8
-.modal 
-    opacity: 1 !important
-    z-index: 2
-    position: fixed 
-    bottom: 90rem
-    background-color: white
+.container 
     width: 100%
     display: flex
     flex-direction: column
     justify-content: center
     align-items: center
-    * 
+    opacity: 1
+    .modal 
         opacity: 1 !important
-    .modal-title 
-        width: 30%
-        display: flex 
-        justify-content: space-between
-        align-items: center
-        div 
-            cursor: pointer 
-    .modal-input
-        width: 30%
-        display: flex 
+        z-index: 2
+        position: absolute 
+        background-color: white
+        display: flex
         flex-direction: column
-        gap: 2rem
-        input , button  
-            border: none 
-            border-bottom: solid 1px gold  
-            height: 2rem
-        button 
-            background-color: gold  
-            cursor: pointer
+        justify-content: center
+        align-items: center
+        bottom: 90rem
+        width: 50%  
+        box-shadow: 100 100 100 gold
+        padding: 2rem
+        transition: 0.5s ease-in-out
+        * 
+            opacity: 1 !important
+        .modal-title 
+            width: 100%
+            display: flex 
+            justify-content: space-between
+            align-items: center
+            div 
+                cursor: pointer 
+        .modal-input
+            width: 100%
+            display: flex 
+            flex-direction: column
+            gap: 2rem
+            input , button  
+                border: none 
+                border-bottom: solid 1px gold  
+                height: 2rem
+            button 
+                background-color: gold  
+                cursor: pointer
+                display: flex 
+                align-items: center
+                justify-content: center
+                gap: 2rem

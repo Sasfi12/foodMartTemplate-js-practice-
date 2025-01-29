@@ -219,7 +219,7 @@ footer {
 
 .modal-appear {
   display: flex;
-  position: fixed !important;
+  position: absolute;
   bottom: 40rem !important;
 }
 
@@ -227,44 +227,59 @@ footer {
   opacity: 0.8;
 }
 
-.modal {
-  opacity: 1 !important;
-  z-index: 2;
-  position: fixed;
-  bottom: 90rem;
-  background-color: white;
+.container {
   width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  opacity: 1;
 }
-.modal * {
+.container .modal {
+  opacity: 1 !important;
+  z-index: 2;
+  position: absolute;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  bottom: 90rem;
+  width: 50%;
+  box-shadow: 100 100 100 gold;
+  padding: 2rem;
+  transition: 0.5s ease-in-out;
+}
+.container .modal * {
   opacity: 1 !important;
 }
-.modal .modal-title {
-  width: 30%;
+.container .modal .modal-title {
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.modal .modal-title div {
+.container .modal .modal-title div {
   cursor: pointer;
 }
-.modal .modal-input {
-  width: 30%;
+.container .modal .modal-input {
+  width: 100%;
   display: flex;
   flex-direction: column;
   gap: 2rem;
 }
-.modal .modal-input input, .modal .modal-input button {
+.container .modal .modal-input input, .container .modal .modal-input button {
   border: none;
   border-bottom: solid 1px gold;
   height: 2rem;
 }
-.modal .modal-input button {
+.container .modal .modal-input button {
   background-color: gold;
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
 }
 
 /*# sourceMappingURL=app.css.map */
