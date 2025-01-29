@@ -32,6 +32,16 @@ allCounters.forEach(function(counter) {
          }
     })
 })
-
 // Modal 
+let user = document.querySelector("#user") 
+let modal = document.querySelector(".modal")
+user.addEventListener('click', function() {
+    modal.classList.add('modal-appear')
+    document.body.classList.add('bodyOnModal')
+})
+let closeModal = document.querySelector("#modalClose")
 
+closeModal.addEventListener("click", function() {
+    modal.classList.toggle("modal-appear")
+    document.body.classList.toggle('bodyOnModal')
+})
